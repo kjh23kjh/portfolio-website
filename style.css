@@ -144,6 +144,15 @@ nav a:hover {
   padding: 50px 0;
 }
 
+.section-heading {
+  max-width: 720px;
+  margin-bottom: 24px;
+}
+
+.section-heading p {
+  color: #4b5563;
+}
+
 .section h2,
 .page-title h1 {
   margin-bottom: 24px;
@@ -168,6 +177,79 @@ nav a:hover {
 .activity-card h2 {
   margin-bottom: 10px;
   color: #111827;
+}
+
+.ai-service-section {
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+.ai-service-card {
+  background: white;
+  padding: 28px;
+  border-radius: 8px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.08);
+}
+
+.contact-form {
+  display: grid;
+  gap: 12px;
+}
+
+.contact-form label {
+  font-weight: 700;
+  color: #111827;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 13px 14px;
+  font: inherit;
+  color: #111827;
+  background: #ffffff;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-form textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
+}
+
+.contact-form button {
+  border: none;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.response-message {
+  display: none;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.response-message.info {
+  display: block;
+  color: #2563eb;
+}
+
+.response-message.success {
+  display: block;
+  color: #15803d;
+}
+
+.response-message.error {
+  display: block;
+  color: #dc2626;
 }
 
 .page-title {
