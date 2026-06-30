@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">My Portfolio</div>
+
+    <nav id="navMenu">
+      <a href="index.html" class="active">About</a>
+      <a href="activities.html">Activities</a>
+    </nav>
+
+    <button class="menu-btn" type="button" onclick="toggleMenu()" aria-label="Open menu">&#9776;</button>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-text">
+        <p class="tag">Hello, I am</p>
+        <h1>Your Name</h1>
+        <h2>Student / Developer / Designer</h2>
+        <p>
+          I am interested in web development, design, and technology.
+          I enjoy creating clean, useful, and responsive websites.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="activities.html" class="btn primary">View Activities</a>
+          <a href="mailto:your.email@example.com" class="btn secondary">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="profile-card">
+        <div class="avatar">YN</div>
+        <h3>Your Name</h3>
+        <p>Frontend Beginner</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>About Me</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Skills</h3>
+          <p>HTML, CSS, JavaScript, UI Design</p>
+        </article>
+
+        <article class="card">
+          <h3>Interests</h3>
+          <p>Web design, app development, creative coding</p>
+        </article>
+
+        <article class="card">
+          <h3>Goal</h3>
+          <p>To build useful digital products with simple and modern design.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Your Name. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
