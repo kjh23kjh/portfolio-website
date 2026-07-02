@@ -17,7 +17,7 @@ if (contactForm) {
     responseDiv.className = "response-message info";
     responseDiv.innerText = "AI 에이전트가 질문을 분석 중입니다. 잠시만 기다려주세요.";
 
-    const makeWebhookUrl = "rlns0k2rhhnst1tld9knp6tbs72cgk9v@hook.eu1.make.com";
+    const makeWebhookUrl = "https://hook.eu1.make.com/rlns0k2rhhnst1tld9knp6tbs72cgk9v";
 
     try {
       const response = await fetch(makeWebhookUrl, {
